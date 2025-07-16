@@ -84,8 +84,7 @@ Student-Performance-Predictor-using-AI/
 
 ## 👨‍💻 Author
 
-**Adil Basha**  
-[GITAM UINVERSITY BANGLORE]
+**yuvaraj**
 AICTE Microsoft Internship – AI/ML Track#🎓 Student Performance Predictor using AI
 
 This project is a machine learning-based solution designed to predict student academic performance levels — such as *Excellent*, *Good*, *Average*, or *At Risk* — using minimal input features like **attendance**, **internal assessment scores**, and **weekly study hours**.
