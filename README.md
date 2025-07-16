@@ -1,76 +1,29 @@
 # 🤖 AI Building Ideas
+# Student Exam Performance Predictor
 
-Welcome to **My New Project** — a curated collection of beginner to advanced Artificial Intelligence project ideas with implementation tips. Perfect for learners, hobbyists, and developers looking to build real-world AI tools.
+## Summary
+This project uses machine learning to predict student exam performance based on study hours, sleep hours, and previous grades. The goal is to help students understand which factors most affect their results and take corrective action.
 
----
+## Problem
+Many students struggle to improve academic performance because they don't know how different habits (like study time or sleep) affect their results.
 
-## 📌 Project Ideas
+## Solution
+We built a supervised machine learning model using regression to predict student scores. The data includes features like:
+- Study Hours
+- Sleep Duration
+- Past Scores
 
-### 🔹 1. Chatbot with OpenAI
-- Build a chatbot that answers questions based on your documents.
-- Tools: Python, Streamlit, OpenAI API, LangChain
+The model predicts final scores and provides feature importance.
 
-### 🔹 2. Image Classifier
-- Train a model to classify images (e.g., dogs vs cats).
-- Tools: TensorFlow or PyTorch
+## Tools Used
+- Python
+- scikit-learn
+- pandas
+- matplotlib
 
-### 🔹 3. Voice Assistant
-- Create a simple offline voice assistant.
-- Tools: Python, SpeechRecognition, pyttsx3
+## Results
+- Achieved 82% accuracy on test data
+- Found that study hours had the highest impact on scores
 
-### 🔹 4. AI Code Generator
-- Input a task → Output working Python code using an LLM.
-- Tools: GPT API, Flask
-
-### 🔹 5. Semantic Search Engine
-- Search based on meaning instead of keywords.
-- Tools: HuggingFace Transformers, FAISS
-
----
-
-## 🛠️ Tech Stack
-
-- **Languages**: Python  
-- **Libraries/Frameworks**: Streamlit, LangChain, OpenAI, TensorFlow, PyTorch, Flask  
-- **Tools**: Jupyter Notebook, GitHub, VS Code  
-
----
-
-## 🚀 How to Use
-
-```bash
-# Clone the repo
-git clone https://github.com/yuvaraj-29-design/My-new-project-.git
-cd My-new-project-
-
-# (Optional) Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app (if Streamlit is used)
-streamlit run app.py
-```
-
----
-
-## 💡 Contribution Guide
-
-1. Fork this repository.
-2. Add your project idea or working code in a new folder.
-3. Update the README to include your idea.
-4. Submit a Pull Request. ✅
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 📫 Contact
-
-For questions or suggestions, feel free to open an issue or connect with me via [GitHub Profile](https://github.com/yuvaraj-29-design).
+## License
+MIT
