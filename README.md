@@ -1,0 +1,2 @@
+# Readme.md
+Ai ideas
